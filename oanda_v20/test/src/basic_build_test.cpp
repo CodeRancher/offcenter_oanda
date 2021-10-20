@@ -1,0 +1,152 @@
+/*
+ * basic_build_test.cpp
+ *
+ *  Created on: Dec 01, 2020
+ *      Author: sbrauer
+ */
+
+#include <gtest/gtest.h>
+
+#include "oanda/v20/trade/CalculatedTradeState.hpp"
+#include "oanda/v20/trade/TradeDefinitions.hpp"
+#include "oanda/v20/trade/Trade.hpp"
+#include "oanda/v20/trade/TradeSummary.hpp"
+#include "oanda/v20/account/CalculatedAccountState.hpp"
+#include "oanda/v20/account/AccountChangesState.hpp"
+#include "oanda/v20/account/AccumulatedAccountState.hpp"
+#include "oanda/v20/account/UserAttributes.hpp"
+#include "oanda/v20/account/AccountSummary.hpp"
+#include "oanda/v20/account/GuaranteedStopLossOrderParameters.hpp"
+#include "oanda/v20/account/AccountChanges.hpp"
+#include "oanda/v20/account/AccountDefinitions.hpp"
+#include "oanda/v20/account/AccountProperties.hpp"
+#include "oanda/v20/account/Account.hpp"
+#include "oanda/v20/pricing_common/PriceBucket.hpp"
+#include "oanda/v20/pricing_common/Pricing_CommonDefinitions.hpp"
+#include "oanda/v20/instrument/OrderBook.hpp"
+#include "oanda/v20/instrument/InstrumentDefinitions.hpp"
+#include "oanda/v20/instrument/CandlestickResponse.hpp"
+#include "oanda/v20/instrument/PositionBookBucket.hpp"
+#include "oanda/v20/instrument/Candlestick.hpp"
+#include "oanda/v20/instrument/PositionBook.hpp"
+#include "oanda/v20/instrument/OrderBookBucket.hpp"
+#include "oanda/v20/instrument/CandlestickData.hpp"
+#include "oanda/v20/position/Position.hpp"
+#include "oanda/v20/position/CalculatedPositionState.hpp"
+#include "oanda/v20/position/PositionDefinitions.hpp"
+#include "oanda/v20/position/PositionSide.hpp"
+#include "oanda/v20/pricing/PricingHeartbeat.hpp"
+#include "oanda/v20/pricing/ClientPrice.hpp"
+#include "oanda/v20/pricing/PricingDefinitions.hpp"
+#include "oanda/v20/pricing/QuoteHomeConversionFactors.hpp"
+#include "oanda/v20/pricing/HomeConversions.hpp"
+#include "oanda/v20/primitives/FinancingDayOfWeek.hpp"
+#include "oanda/v20/primitives/PrimitivesDefinitions.hpp"
+#include "oanda/v20/primitives/InstrumentFinancing.hpp"
+#include "oanda/v20/primitives/ConversionFactor.hpp"
+#include "oanda/v20/primitives/HomeConversionFactors.hpp"
+#include "oanda/v20/primitives/Instrument.hpp"
+#include "oanda/v20/primitives/GuaranteedStopLossOrderLevelRestriction.hpp"
+#include "oanda/v20/primitives/InstrumentCommission.hpp"
+#include "oanda/v20/primitives/Tag.hpp"
+#include "oanda/v20/transaction/MarketOrderMarginCloseout.hpp"
+#include "oanda/v20/transaction/FixedPriceOrderTransaction.hpp"
+#include "oanda/v20/transaction/OpenTradeFinancing.hpp"
+#include "oanda/v20/transaction/Transaction.hpp"
+#include "oanda/v20/transaction/MarketOrderDelayedTradeClose.hpp"
+#include "oanda/v20/transaction/TransactionHeartbeat.hpp"
+#include "oanda/v20/transaction/ClientConfigureRejectTransaction.hpp"
+#include "oanda/v20/transaction/MarketIfTouchedOrderTransaction.hpp"
+#include "oanda/v20/transaction/StopLossOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/GuaranteedStopLossOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/OpenTradeDividendAdjustment.hpp"
+#include "oanda/v20/transaction/DelayedTradeClosureTransaction.hpp"
+#include "oanda/v20/transaction/TrailingStopLossDetails.hpp"
+#include "oanda/v20/transaction/MarketOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/MarketIfTouchedOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/CreateTransaction.hpp"
+#include "oanda/v20/transaction/TransactionDefinitions.hpp"
+#include "oanda/v20/transaction/TrailingStopLossOrderTransaction.hpp"
+#include "oanda/v20/transaction/TradeClientExtensionsModifyTransaction.hpp"
+#include "oanda/v20/transaction/ReopenTransaction.hpp"
+#include "oanda/v20/transaction/OrderClientExtensionsModifyRejectTransaction.hpp"
+#include "oanda/v20/transaction/LiquidityRegenerationScheduleStep.hpp"
+#include "oanda/v20/transaction/TransferFundsRejectTransaction.hpp"
+#include "oanda/v20/transaction/StopOrderTransaction.hpp"
+#include "oanda/v20/transaction/TrailingStopLossOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/DividendAdjustmentTransaction.hpp"
+#include "oanda/v20/transaction/OrderCancelTransaction.hpp"
+#include "oanda/v20/transaction/TransferFundsTransaction.hpp"
+#include "oanda/v20/transaction/CloseTransaction.hpp"
+#include "oanda/v20/transaction/TradeReduce.hpp"
+#include "oanda/v20/transaction/ClientExtensions.hpp"
+#include "oanda/v20/transaction/LiquidityRegenerationSchedule.hpp"
+#include "oanda/v20/transaction/GuaranteedStopLossOrderTransaction.hpp"
+#include "oanda/v20/transaction/LimitOrderTransaction.hpp"
+#include "oanda/v20/transaction/GuaranteedStopLossDetails.hpp"
+#include "oanda/v20/transaction/MarketOrderTransaction.hpp"
+#include "oanda/v20/transaction/TradeClientExtensionsModifyRejectTransaction.hpp"
+#include "oanda/v20/transaction/TakeProfitOrderTransaction.hpp"
+#include "oanda/v20/transaction/TakeProfitDetails.hpp"
+#include "oanda/v20/transaction/MarketOrderTradeClose.hpp"
+#include "oanda/v20/transaction/StopLossOrderTransaction.hpp"
+#include "oanda/v20/transaction/TakeProfitOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/MarginCallEnterTransaction.hpp"
+#include "oanda/v20/transaction/MarginCallExtendTransaction.hpp"
+#include "oanda/v20/transaction/ClientConfigureTransaction.hpp"
+#include "oanda/v20/transaction/OrderFillTransaction.hpp"
+#include "oanda/v20/transaction/TradeOpen.hpp"
+#include "oanda/v20/transaction/StopLossDetails.hpp"
+#include "oanda/v20/transaction/OrderCancelRejectTransaction.hpp"
+#include "oanda/v20/transaction/OrderClientExtensionsModifyTransaction.hpp"
+#include "oanda/v20/transaction/StopOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/DailyFinancingTransaction.hpp"
+#include "oanda/v20/transaction/LimitOrderRejectTransaction.hpp"
+#include "oanda/v20/transaction/ResetResettablePLTransaction.hpp"
+#include "oanda/v20/transaction/MarginCallExitTransaction.hpp"
+#include "oanda/v20/transaction/PositionFinancing.hpp"
+#include "oanda/v20/transaction/MarketOrderPositionCloseout.hpp"
+#include "oanda/v20/order/OrderIdentifier.hpp"
+#include "oanda/v20/order/MarketIfTouchedOrder.hpp"
+#include "oanda/v20/order/StopOrder.hpp"
+#include "oanda/v20/order/LimitOrderRequest.hpp"
+#include "oanda/v20/order/MarketOrderRequest.hpp"
+#include "oanda/v20/order/TrailingStopLossOrder.hpp"
+#include "oanda/v20/order/TakeProfitOrder.hpp"
+#include "oanda/v20/order/GuaranteedStopLossOrderRequest.hpp"
+#include "oanda/v20/order/FixedPriceOrder.hpp"
+#include "oanda/v20/order/TakeProfitOrderRequest.hpp"
+#include "oanda/v20/order/StopLossOrderRequest.hpp"
+#include "oanda/v20/order/DynamicOrderState.hpp"
+#include "oanda/v20/order/TrailingStopLossOrderRequest.hpp"
+#include "oanda/v20/order/GuaranteedStopLossOrderEntryData.hpp"
+#include "oanda/v20/order/StopLossOrder.hpp"
+#include "oanda/v20/order/StopOrderRequest.hpp"
+#include "oanda/v20/order/OrderDefinitions.hpp"
+#include "oanda/v20/order/Order.hpp"
+#include "oanda/v20/order/UnitsAvailable.hpp"
+#include "oanda/v20/order/LimitOrder.hpp"
+#include "oanda/v20/order/UnitsAvailableDetails.hpp"
+#include "oanda/v20/order/MarketOrder.hpp"
+#include "oanda/v20/order/GuaranteedStopLossOrder.hpp"
+#include "oanda/v20/order/MarketIfTouchedOrderRequest.hpp"
+
+
+TEST (TestBuild, Account)
+{
+	oanda::v20::account::Account account;
+	oanda::v20::account::AccountChanges accountChanges;
+	oanda::v20::account::AccountChangesState accountChangesState;
+	oanda::v20::account::GuaranteedStopLossOrderMode guaranteedStopLossOrderMode;
+	oanda::v20::account::GuaranteedStopLossOrderMutability guaranteedStopLossOrderMutability;
+	oanda::v20::account::AccountFinancingMode accountFinancingMode;
+	oanda::v20::account::PositionAggregationMode positionAggregationMode;
+	oanda::v20::account::AccountProperties accountProperties;
+	oanda::v20::account::AccountSummary accountSummary;
+	oanda::v20::account::AccumulatedAccountState accumulatedAccountState;
+	oanda::v20::account::CalculatedAccountState calculatedAccountState;
+	oanda::v20::account::GuaranteedStopLossOrderParameters guaranteedStopLossOrderParameters;
+	oanda::v20::account::UserAttributes userAttributes;
+
+	EXPECT_EQ(101, 101);
+}
