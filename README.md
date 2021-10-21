@@ -1,4 +1,4 @@
-# offcenter_oanda                         {#mainpage}
+# offcenter_oanda
 
 The offcenter_oanda project is a C++ library that provides access to the [OANDA v20 REST API](https://developer.oanda.com/rest-live-v20/introduction/).
 
