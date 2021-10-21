@@ -64,7 +64,7 @@ Important cmake build variables.
 | Library | Minimum Version | License |
 | ------- | --------------- | ------- |
 | [nlohmann json](https://github.com/nlohmann/json) | 3.9.1 | [MIT](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT) |
-| [C++ REST SDK](https://github.com/microsoft/cpprestsdk) ] | 2.10.16 | [MIT](https://github.com/microsoft/cpprestsdk/blob/master/license.txt) |
+| [C++ REST SDK](https://github.com/microsoft/cpprestsdk) | 2.10.16 | [MIT](https://github.com/microsoft/cpprestsdk/blob/master/license.txt) |
 | [Boost](https://www.boost.org/) | 1.74 | [Boost Software License 1.0](https://www.boost.org/users/license.html) |
 | [Easylogging++](https://github.com/amrayn/easyloggingpp) | 9.97.0 | [MIT](https://github.com/amrayn/easyloggingpp/blob/master/LICENSE) |
 | [GoogleTest](https://github.com/google/googletest) | 1.10.0 | [BSD 3-Clause "New" or "Revised" License (modified)](https://github.com/google/googletest/blob/master/LICENSE) |
