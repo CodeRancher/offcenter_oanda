@@ -1,0 +1,9 @@
+<map id="oanda::v20::endpoint::account::accountconfiguration::Request" name="oanda::v20::endpoint::account::accountconfiguration::Request">
+<area shape="rect" id="node1" title=" " alt="" coords="931,63,1156,119"/>
+<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1endpoint_1_1OandaEndpointParameters.html" title=" " alt="" coords="500,5,703,47"/>
+<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="522,71,681,112"/>
+<area shape="rect" id="node4" title=" " alt="" coords="277,78,364,105"/>
+<area shape="rect" id="node5" href="$classoanda_1_1v20_1_1endpoint_1_1AcceptDatetimeFormatParameter.html" title=" " alt="" coords="477,136,725,177"/>
+<area shape="rect" id="node6" href="$classoanda_1_1v20_1_1endpoint_1_1EnumParameter.html" title=" " alt="" coords="213,129,428,185"/>
+<area shape="rect" id="node7" href="$classoanda_1_1v20_1_1endpoint_1_1BaseParameter.html" title=" " alt="" coords="5,136,164,177"/>
+</map>

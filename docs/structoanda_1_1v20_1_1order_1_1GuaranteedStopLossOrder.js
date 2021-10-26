@@ -1,0 +1,26 @@
+var structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder =
+[
+    [ "GuaranteedStopLossOrder", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#ac7bdfe421e955ca693d2e56ab127cb6d", null ],
+    [ "cancelledTime", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#acd3e5fc1286e86a9e8afc458a5c5616d", null ],
+    [ "cancellingTransactionID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a59aad90417744f94da68af6ae2a75592", null ],
+    [ "clientExtensions", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a3925d7c8ef5e0ca34c8683a1fe1d2423", null ],
+    [ "clientTradeID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a558613923a750620fc35e439c1455479", null ],
+    [ "createTime", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a7dcb4b491f5cf41c55c857fa2ad300e6", null ],
+    [ "distance", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a14a5798ad995ee54ec0176bd4617813d", null ],
+    [ "filledTime", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a36ac98f1429f49b1cd24d2d105f4abea", null ],
+    [ "fillingTransactionID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a5e6080bcde024661c249eddbf6a26bef", null ],
+    [ "gtdTime", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a2cb077151f4f030507b28b481212af5f", null ],
+    [ "guaranteedExecutionPremium", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a51f1eeab77df5af4f7c4557f63dbeb1e", null ],
+    [ "id", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a75691f72dd1309dafe35ac53a76c2634", null ],
+    [ "price", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a2e07e99cdb4d6a1e6e3eab8e24000ebf", null ],
+    [ "replacedByOrderID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a3733ff8c8ad787ac99fcb510d4b732ea", null ],
+    [ "replacesOrderID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#abd743adac824880b523bfda373f877c4", null ],
+    [ "state", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a1a572f671b2944154642a53d813aa368", null ],
+    [ "timeInForce", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a07c3dc2ceb14458ab4ec5cb3566d5994", null ],
+    [ "tradeClosedIDs", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#ab7442a5cea81af892cc72a4493633999", null ],
+    [ "tradeID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a469fa88c8166c90ab0cfa6100daf92cc", null ],
+    [ "tradeOpenedID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a249719d29e91f0e0f09f7c64d88794e9", null ],
+    [ "tradeReducedID", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#ad5792cee76402289002fba64579280fc", null ],
+    [ "triggerCondition", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#a5bb4beb33f8b6db57abcee3ff6693a2d", null ],
+    [ "type", "structoanda_1_1v20_1_1order_1_1GuaranteedStopLossOrder.html#ac4b2138bed4b9adaa552b3d6a587922a", null ]
+];

@@ -1,0 +1,9 @@
+<map id="oanda::v20::trade::Trade" name="oanda::v20::trade::Trade">
+<area shape="rect" id="node1" title=" " alt="" coords="1125,389,1269,430"/>
+<area shape="rect" id="node2" href="$structoanda_1_1v20_1_1order_1_1TrailingStopLossOrder.html" title=" " alt="" coords="769,329,932,370"/>
+<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="141,379,300,421"/>
+<area shape="rect" id="node5" href="$structoanda_1_1v20_1_1transaction_1_1ClientExtensions.html" title=" " alt="" coords="415,379,589,421"/>
+<area shape="rect" id="node6" href="$structoanda_1_1v20_1_1order_1_1TakeProfitOrder.html" title=" " alt="" coords="779,523,923,565"/>
+<area shape="rect" id="node7" href="$structoanda_1_1v20_1_1order_1_1StopLossOrder.html" title="A StopLossOrder is an order that is linked to an open Trade and created with a price threshold." alt="" coords="779,458,923,499"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,387,92,413"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="oanda::v20::primitives::Instrument" name="oanda::v20::primitives::Instrument">
+<area shape="rect" id="node1" title=" " alt="" coords="988,243,1156,285"/>
+<area shape="rect" id="node2" href="$structoanda_1_1v20_1_1primitives_1_1InstrumentFinancing.html" title=" " alt="" coords="531,215,699,257"/>
+<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="141,249,300,290"/>
+<area shape="rect" id="node5" href="$structoanda_1_1v20_1_1primitives_1_1InstrumentCommission.html" title=" " alt="" coords="523,281,706,322"/>
+<area shape="rect" id="node6" href="$structoanda_1_1v20_1_1primitives_1_1GuaranteedStopLossOrderLevelRestriction.html" title=" " alt="" coords="497,347,732,403"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,256,92,283"/>
+</map>

@@ -1,0 +1,28 @@
+var structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction =
+[
+    [ "MarketOrderTransaction", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a5be0b94eba9bbef951311637e26847c5", null ],
+    [ "accountID", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a807a0cb691da6b54af63586eeb29ca59", null ],
+    [ "batchID", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a1fc75c22549e1f8ba13823ee49a39d98", null ],
+    [ "clientExtensions", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a0e67761ebdcd5b848ee1295a2a8217da", null ],
+    [ "delayedTradeClose", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a33f72c1b63d8f88236bdc136ca62dbb6", null ],
+    [ "guaranteedStopLossOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#ab840900010d7434aeb5e4e75c270bfb0", null ],
+    [ "id", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a0589e7b0e1f19f0412b28412e3869fed", null ],
+    [ "instrument", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a5eb11c12e30dfce4307110cd999ab18d", null ],
+    [ "longPositionCloseout", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a64771738b5168a08b58e063cc199ccf6", null ],
+    [ "marginCloseout", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a4881d9a3b1d812482f6fe9ac457201ea", null ],
+    [ "positionFill", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a293d05bdd2b3e92d0fff16ae126358f1", null ],
+    [ "priceBound", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#ac68622dfd49b8f8b6a6a87296b2f6ba8", null ],
+    [ "reason", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#ad62f0e22f27f5474bc4e27e709494353", null ],
+    [ "requestID", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a57ad64756f87e031f7d096e6e71f389b", null ],
+    [ "shortPositionCloseout", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a11830cd3ba99f881d77d5934e30102aa", null ],
+    [ "stopLossOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a31231c3d2852dc7f79d3e3097e160d85", null ],
+    [ "takeProfitOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a7c73cbc1f0c4713e2ce72a4937b1c3d1", null ],
+    [ "time", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#aa06dfa1d57014a567c3f70c33fa226ba", null ],
+    [ "timeInForce", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a5d87c57356cc3bb45ab7b85e4b92a768", null ],
+    [ "tradeClientExtensions", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#afe74469e6d14a20dcbd9a10a80ea8d6f", null ],
+    [ "tradeClose", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a057c87a4eb9a80f698f2b1b599f3625e", null ],
+    [ "trailingStopLossOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a77ce163bff051ae4a69566f045a8086c", null ],
+    [ "type", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a64b4777a63441f58c9592744fb1d3d80", null ],
+    [ "units", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#a60aec49d9a3c4cc858832cb1be67bd55", null ],
+    [ "userID", "structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html#af99abd35824514b4709b6838a9f73bdb", null ]
+];

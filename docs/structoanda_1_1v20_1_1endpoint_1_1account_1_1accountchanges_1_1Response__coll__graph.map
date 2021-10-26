@@ -1,0 +1,9 @@
+<map id="oanda::v20::endpoint::account::accountchanges::Response" name="oanda::v20::endpoint::account::accountchanges::Response">
+<area shape="rect" id="node1" title=" " alt="" coords="883,97,1077,153"/>
+<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1endpoint_1_1OandaEndpointResponses.html" title=" " alt="" coords="577,13,776,54"/>
+<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1endpoint_1_1OandaEndpointResponses_1_1Parameter.html" title=" " alt="" coords="141,5,340,61"/>
+<area shape="rect" id="node4" href="$structoanda_1_1v20_1_1account_1_1AccountChangesState.html" title="An AccountState Object is used to represent an Account’s current price&#45;dependent state." alt="" coords="591,157,763,198"/>
+<area shape="rect" id="node5" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="161,178,320,219"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,185,92,212"/>
+<area shape="rect" id="node7" href="$structoanda_1_1v20_1_1account_1_1AccountChanges.html" title="An AccountChanges Object is used to represent the changes to an Account’s Orders, Trades and Position..." alt="" coords="600,222,753,263"/>
+</map>

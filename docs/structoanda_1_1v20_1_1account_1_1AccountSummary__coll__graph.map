@@ -1,0 +1,6 @@
+<map id="oanda::v20::account::AccountSummary" name="oanda::v20::account::AccountSummary">
+<area shape="rect" id="node1" title="A summary representation of a client’s Account." alt="" coords="128,332,281,373"/>
+<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="5,81,164,123"/>
+<area shape="rect" id="node3" title=" " alt="" coords="41,5,128,32"/>
+<area shape="rect" id="node4" href="$structoanda_1_1v20_1_1account_1_1GuaranteedStopLossOrderParameters.html" title="The current mutability and hedging settings related to guaranteed Stop Loss orders." alt="" coords="189,81,463,123"/>
+</map>

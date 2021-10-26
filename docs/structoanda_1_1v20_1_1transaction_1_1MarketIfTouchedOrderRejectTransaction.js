@@ -1,0 +1,28 @@
+var structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction =
+[
+    [ "MarketIfTouchedOrderRejectTransaction", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a4bb6a462064641db0a3ac9bd75ad18fc", null ],
+    [ "accountID", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a671e7c18c1da795350ef48fb1b92b242", null ],
+    [ "batchID", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a139bc8707bc966f818a96ab8ec632e41", null ],
+    [ "clientExtensions", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#ace2baeaab984d12e9e60240e517dbdb4", null ],
+    [ "gtdTime", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a34af0e03c86eba34e752ac35016aad01", null ],
+    [ "guaranteedStopLossOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#aa9b55b397de90f0631ef0f494d9c2caa", null ],
+    [ "id", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#adf409758fd5fdd6e550f013cb3538199", null ],
+    [ "instrument", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a53b3905af5b0e9398354821326f7958f", null ],
+    [ "intendedReplacesOrderID", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#aa44b3a08bbf4db49c535fd754c013651", null ],
+    [ "positionFill", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a984a083dd8816e49830f0c58bc0d6cbc", null ],
+    [ "price", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a073894e89d0f504d21b5d6cc1fb9d3f5", null ],
+    [ "priceBound", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#ada08101265d5ef6276a2142e727a8bfc", null ],
+    [ "reason", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#ad010acd636abe9be858e75dcaf77cc7d", null ],
+    [ "rejectReason", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a9c085dd43527f905948f275f9d48ffd5", null ],
+    [ "requestID", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#abb1fc38886e35790e1dc95f83bf06ad8", null ],
+    [ "stopLossOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a37efb00204366d7a6646fd529292fe94", null ],
+    [ "takeProfitOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a75db5966c6d92ed0f31cbf915d1e739c", null ],
+    [ "time", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#ad1a2158e001122bd08d743a4903be73e", null ],
+    [ "timeInForce", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a7913c696c7c0fe536656bad34e373b3a", null ],
+    [ "tradeClientExtensions", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a439e173ce0fbd75edc37a0015410af67", null ],
+    [ "trailingStopLossOnFill", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#af0305244a4fae8cea732ac45a95e8ea3", null ],
+    [ "triggerCondition", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a18b01c3ae536430c936bac2989500546", null ],
+    [ "type", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a418edf67d09a0cd1fe49f47a48bcd0de", null ],
+    [ "units", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a1a1f96d908275abffefbfc731ff13ee4", null ],
+    [ "userID", "structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html#a2ee95d03ffef84b2594aa2a4070958c7", null ]
+];

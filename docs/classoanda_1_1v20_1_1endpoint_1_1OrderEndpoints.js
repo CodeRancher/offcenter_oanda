@@ -1,0 +1,25 @@
+var classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints =
+[
+    [ "OrderEndpoints", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#aee9b8f1352735e92f64c00a46cfdc4a3", null ],
+    [ "cancelOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a1246da7faabbd04bf3975d3a8246ee08", null ],
+    [ "clientExtensions", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a3f3f95f06f07b202eaf3c576663821f3", null ],
+    [ "guaranteedStopLossOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a5c80a3da75efb9f7e95f80746e15d68b", null ],
+    [ "limitOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#aaa480c53f66883b386b2853ad5aba20e", null ],
+    [ "marketIfTouchedOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#aee1c4a5a27a20c35664c2d709f40b7ae", null ],
+    [ "marketOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a70222678f83efe45adadd2c341bc8434", null ],
+    [ "orderDetails", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a5e8336bb3f7896745662b2f49aa37e25", null ],
+    [ "orders", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a8d02362826fb327ba5b42b719ab25cd1", null ],
+    [ "pendingOrders", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a8dfa05ae11f25c3dd5d2389ac775123d", null ],
+    [ "replaceGuaranteedStopLossOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a8d4f7728aa5a8dead90cef45dd6c06f4", null ],
+    [ "replaceLimitOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#ac6837b6738bf657923915f6ac12402cb", null ],
+    [ "replaceMarketIfTouchedOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#ab7e3d15792085a1091a4f727456fdddd", null ],
+    [ "replaceMarketOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#ae56335d48cff3239f71347ecf618756e", null ],
+    [ "replaceStopLossOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a2bbfa0f20f67303ba326793adae7c7fa", null ],
+    [ "replaceStopOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a40a47a6d5746f4811e0a8d27c465873a", null ],
+    [ "replaceTakeProfitOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#ab47dd294a52023a46e8fdd9767512a08", null ],
+    [ "replaceTrailingStopLossOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a8e1692d85ddea12681e56713b238c598", null ],
+    [ "stopLossOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#ae39e1663429c3f947cbe01d4cc006121", null ],
+    [ "stopOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#ac8ecc0d119677e9a996d8ecd66d2a35d", null ],
+    [ "takeProfitOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a3cb6393f45f064a1fc0fe8daa66b0afd", null ],
+    [ "trailingStopLossOrder", "classoanda_1_1v20_1_1endpoint_1_1OrderEndpoints.html#a4a7c446c71fda8b5cafe8a1a1590426b", null ]
+];

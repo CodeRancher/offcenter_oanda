@@ -1,0 +1,10 @@
+<map id="oanda::v20::transaction::StopOrderTransaction" name="oanda::v20::transaction::StopOrderTransaction">
+<area shape="rect" id="node1" title=" " alt="" coords="1228,361,1403,402"/>
+<area shape="rect" id="node2" href="$structoanda_1_1v20_1_1transaction_1_1GuaranteedStopLossDetails.html" title=" " alt="" coords="796,269,1007,310"/>
+<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="141,417,300,458"/>
+<area shape="rect" id="node5" href="$structoanda_1_1v20_1_1transaction_1_1ClientExtensions.html" title=" " alt="" coords="415,378,589,419"/>
+<area shape="rect" id="node6" href="$structoanda_1_1v20_1_1transaction_1_1TakeProfitDetails.html" title=" " alt="" coords="814,413,989,454"/>
+<area shape="rect" id="node7" href="$structoanda_1_1v20_1_1transaction_1_1StopLossDetails.html" title=" " alt="" coords="814,478,989,519"/>
+<area shape="rect" id="node8" href="$structoanda_1_1v20_1_1transaction_1_1TrailingStopLossDetails.html" title=" " alt="" coords="811,543,992,585"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,424,92,451"/>
+</map>

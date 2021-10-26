@@ -1,0 +1,6 @@
+<map id="oanda::v20::endpoint::instrument::positionbook::Response" name="oanda::v20::endpoint::instrument::positionbook::Response">
+<area shape="rect" id="node1" title=" " alt="" coords="5,333,199,389"/>
+<area shape="rect" id="node2" href="$structoanda_1_1v20_1_1instrument_1_1PositionBook.html" title="The representation of an instrument’s position book at a point in time." alt="" coords="15,229,189,271"/>
+<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="23,81,181,123"/>
+<area shape="rect" id="node4" title=" " alt="" coords="59,5,145,32"/>
+</map>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['malformedrequest_876',['MalformedRequest',['../classoanda_1_1v20_1_1endpoint_1_1MalformedRequest.html',1,'oanda::v20::endpoint']]],
+  ['margincallentertransaction_877',['MarginCallEnterTransaction',['../structoanda_1_1v20_1_1transaction_1_1MarginCallEnterTransaction.html',1,'oanda::v20::transaction']]],
+  ['margincallexittransaction_878',['MarginCallExitTransaction',['../structoanda_1_1v20_1_1transaction_1_1MarginCallExitTransaction.html',1,'oanda::v20::transaction']]],
+  ['margincallextendtransaction_879',['MarginCallExtendTransaction',['../structoanda_1_1v20_1_1transaction_1_1MarginCallExtendTransaction.html',1,'oanda::v20::transaction']]],
+  ['marketiftouchedorder_880',['MarketIfTouchedOrder',['../structoanda_1_1v20_1_1order_1_1MarketIfTouchedOrder.html',1,'oanda::v20::order']]],
+  ['marketiftouchedorderrejecttransaction_881',['MarketIfTouchedOrderRejectTransaction',['../structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderRejectTransaction.html',1,'oanda::v20::transaction']]],
+  ['marketiftouchedorderrequest_882',['MarketIfTouchedOrderRequest',['../structoanda_1_1v20_1_1order_1_1MarketIfTouchedOrderRequest.html',1,'oanda::v20::order']]],
+  ['marketiftouchedordertransaction_883',['MarketIfTouchedOrderTransaction',['../structoanda_1_1v20_1_1transaction_1_1MarketIfTouchedOrderTransaction.html',1,'oanda::v20::transaction']]],
+  ['marketorder_884',['MarketOrder',['../structoanda_1_1v20_1_1order_1_1MarketOrder.html',1,'oanda::v20::order']]],
+  ['marketorderdelayedtradeclose_885',['MarketOrderDelayedTradeClose',['../structoanda_1_1v20_1_1transaction_1_1MarketOrderDelayedTradeClose.html',1,'oanda::v20::transaction']]],
+  ['marketordermargincloseout_886',['MarketOrderMarginCloseout',['../structoanda_1_1v20_1_1transaction_1_1MarketOrderMarginCloseout.html',1,'oanda::v20::transaction']]],
+  ['marketorderpositioncloseout_887',['MarketOrderPositionCloseout',['../structoanda_1_1v20_1_1transaction_1_1MarketOrderPositionCloseout.html',1,'oanda::v20::transaction']]],
+  ['marketorderrejecttransaction_888',['MarketOrderRejectTransaction',['../structoanda_1_1v20_1_1transaction_1_1MarketOrderRejectTransaction.html',1,'oanda::v20::transaction']]],
+  ['marketorderrequest_889',['MarketOrderRequest',['../structoanda_1_1v20_1_1order_1_1MarketOrderRequest.html',1,'oanda::v20::order']]],
+  ['marketordertradeclose_890',['MarketOrderTradeClose',['../structoanda_1_1v20_1_1transaction_1_1MarketOrderTradeClose.html',1,'oanda::v20::transaction']]],
+  ['marketordertransaction_891',['MarketOrderTransaction',['../structoanda_1_1v20_1_1transaction_1_1MarketOrderTransaction.html',1,'oanda::v20::transaction']]],
+  ['methodnotallowed_892',['MethodNotAllowed',['../classoanda_1_1v20_1_1endpoint_1_1MethodNotAllowed.html',1,'oanda::v20::endpoint']]]
+];

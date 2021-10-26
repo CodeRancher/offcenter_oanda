@@ -1,0 +1,47 @@
+<map id="/home/sbrauer/dev/github/offcenter_oanda/oanda_v20/include/oanda/v20/transaction/GuaranteedStopLossDetails.hpp" name="/home/sbrauer/dev/github/offcenter_oanda/oanda_v20/include/oanda/v20/transaction/GuaranteedStopLossDetails.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="2174,5,2427,76"/>
+<area shape="rect" id="node2" href="$JsonToFrom_8hpp_source.html" title=" " alt="" coords="2068,361,2274,432"/>
+<area shape="rect" id="node26" href="$FixedPriceOrder_8hpp.html" title=" " alt="" coords="117,124,332,195"/>
+<area shape="rect" id="node28" href="$LimitOrder_8hpp.html" title=" " alt="" coords="356,124,570,195"/>
+<area shape="rect" id="node29" href="$LimitOrderRequest_8hpp.html" title=" " alt="" coords="594,124,809,195"/>
+<area shape="rect" id="node30" href="$MarketIfTouchedOrder_8hpp.html" title=" " alt="" coords="833,124,1048,195"/>
+<area shape="rect" id="node31" href="$MarketIfTouchedOrderRequest_8hpp.html" title=" " alt="" coords="1072,124,1323,195"/>
+<area shape="rect" id="node32" href="$MarketOrder_8hpp.html" title=" " alt="" coords="1348,124,1562,195"/>
+<area shape="rect" id="node33" href="$MarketOrderRequest_8hpp.html" title=" " alt="" coords="1586,124,1801,195"/>
+<area shape="rect" id="node34" href="$StopOrder_8hpp.html" title=" " alt="" coords="1825,124,2040,195"/>
+<area shape="rect" id="node35" href="$StopOrderRequest_8hpp.html" title=" " alt="" coords="2064,124,2278,195"/>
+<area shape="rect" id="node36" href="$FixedPriceOrderTransaction_8hpp.html" title=" " alt="" coords="2303,124,2556,195"/>
+<area shape="rect" id="node37" href="$TransactionCommon_8hpp.html" title=" " alt="" coords="3358,243,3611,313"/>
+<area shape="rect" id="node38" href="$LimitOrderRejectTransaction_8hpp.html" title=" " alt="" coords="2580,124,2834,195"/>
+<area shape="rect" id="node39" href="$LimitOrderTransaction_8hpp.html" title=" " alt="" coords="2858,124,3111,195"/>
+<area shape="rect" id="node40" href="$MarketIfTouchedOrderRejectTransaction_8hpp.html" title=" " alt="" coords="3135,124,3447,195"/>
+<area shape="rect" id="node41" href="$MarketIfTouchedOrderTransaction_8hpp.html" title=" " alt="" coords="3522,124,3793,195"/>
+<area shape="rect" id="node42" href="$MarketOrderRejectTransaction_8hpp.html" title=" " alt="" coords="3818,124,4071,195"/>
+<area shape="rect" id="node43" href="$MarketOrderTransaction_8hpp.html" title=" " alt="" coords="4095,124,4348,195"/>
+<area shape="rect" id="node44" href="$StopOrderRejectTransaction_8hpp.html" title=" " alt="" coords="4372,124,4626,195"/>
+<area shape="rect" id="node45" href="$StopOrderTransaction_8hpp.html" title=" " alt="" coords="4650,124,4903,195"/>
+<area shape="rect" id="node3" href="$endpoint_2Account_8hpp.html" title=" " alt="" coords="1267,480,1504,551"/>
+<area shape="rect" id="node17" href="$endpoint_2Instrument_8hpp.html" title=" " alt="" coords="2052,480,2290,551"/>
+<area shape="rect" id="node18" href="$endpoint_2Order_8hpp.html" title=" " alt="" coords="1530,480,1767,551"/>
+<area shape="rect" id="node20" href="$endpoint_2Position_8hpp.html" title=" " alt="" coords="1791,480,2028,551"/>
+<area shape="rect" id="node22" href="$Pricing_8hpp.html" title=" " alt="" coords="2575,480,2812,551"/>
+<area shape="rect" id="node23" href="$endpoint_2Trade_8hpp.html" title=" " alt="" coords="2314,480,2551,551"/>
+<area shape="rect" id="node24" href="$endpoint_2Transaction_8hpp.html" title=" " alt="" coords="2836,480,3074,551"/>
+<area shape="rect" id="node4" href="$OandaClient_8hpp.html" title=" " alt="" coords="2243,599,2480,669"/>
+<area shape="rect" id="node5" href="$OandaEndpoints_8hpp.html" title=" " alt="" coords="2087,717,2324,788"/>
+<area shape="rect" id="node8" href="$account__test_8cpp.html" title=" " alt="" coords="1348,962,1567,1018"/>
+<area shape="rect" id="node9" href="$instrument__test_8cpp.html" title=" " alt="" coords="1099,955,1288,1025"/>
+<area shape="rect" id="node16" href="$endpoint_2Account_8cpp.html" title=" " alt="" coords="1273,606,1493,662"/>
+<area shape="rect" id="node15" href="$OandaClient_8cpp.html" title=" " alt="" coords="2348,725,2596,781"/>
+<area shape="rect" id="node6" href="$OandaEndpoints_8cpp.html" title=" " alt="" coords="1568,843,1843,899"/>
+<area shape="rect" id="node7" href="$OandaEndpointsFixture_8hpp.html" title=" " alt="" coords="1867,836,2110,907"/>
+<area shape="rect" id="node13" href="$eur__usd__to__csv_8cpp.html" title=" " alt="" coords="2134,843,2333,899"/>
+<area shape="rect" id="node14" href="$list__candles_8cpp.html" title=" " alt="" coords="2357,843,2556,899"/>
+<area shape="rect" id="node10" href="$OandaEndpointsFixture_8cpp.html" title=" " alt="" coords="1845,962,2132,1018"/>
+<area shape="rect" id="node11" href="$order__test_8cpp.html" title=" " alt="" coords="1608,962,1811,1018"/>
+<area shape="rect" id="node12" href="$pricing__test_8cpp.html" title=" " alt="" coords="2372,962,2584,1018"/>
+<area shape="rect" id="node19" href="$endpoint_2Order_8cpp.html" title=" " alt="" coords="1619,606,1822,662"/>
+<area shape="rect" id="node21" href="$endpoint_2Position_8cpp.html" title=" " alt="" coords="1948,606,2168,662"/>
+<area shape="rect" id="node25" href="$endpoint_2Transaction_8cpp.html" title=" " alt="" coords="2834,606,3076,662"/>
+<area shape="rect" id="node27" href="$OrderCommon_8hpp.html" title=" " alt="" coords="1318,243,1533,313"/>
+</map>

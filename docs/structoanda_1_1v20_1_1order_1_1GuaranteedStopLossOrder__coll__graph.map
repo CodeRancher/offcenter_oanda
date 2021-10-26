@@ -1,0 +1,6 @@
+<map id="oanda::v20::order::GuaranteedStopLossOrder" name="oanda::v20::order::GuaranteedStopLossOrder">
+<area shape="rect" id="node1" title="A GuaranteedStopLossOrder is an order that is linked to an open Trade and created with a price thresh..." alt="" coords="5,453,197,495"/>
+<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="22,81,181,123"/>
+<area shape="rect" id="node4" href="$structoanda_1_1v20_1_1transaction_1_1ClientExtensions.html" title=" " alt="" coords="263,282,438,323"/>
+<area shape="rect" id="node3" title=" " alt="" coords="58,5,145,32"/>
+</map>

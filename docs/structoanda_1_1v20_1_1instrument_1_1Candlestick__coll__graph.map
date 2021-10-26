@@ -1,0 +1,6 @@
+<map id="oanda::v20::instrument::Candlestick" name="oanda::v20::instrument::Candlestick">
+<area shape="rect" id="node1" title="The Candlestick representation." alt="" coords="5,363,179,404"/>
+<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="13,81,171,123"/>
+<area shape="rect" id="node4" href="$structoanda_1_1v20_1_1instrument_1_1CandlestickData.html" title=" " alt="" coords="129,229,303,271"/>
+<area shape="rect" id="node3" title=" " alt="" coords="49,5,135,32"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="oanda::v20::order::MarketOrderRequest" name="oanda::v20::order::MarketOrderRequest">
+<area shape="rect" id="node1" title="A MarketOrderRequest specifies the parameters that may be set when creating a Market Order." alt="" coords="1181,241,1337,282"/>
+<area shape="rect" id="node2" href="$structoanda_1_1v20_1_1transaction_1_1GuaranteedStopLossDetails.html" title=" " alt="" coords="749,149,960,190"/>
+<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="141,297,300,338"/>
+<area shape="rect" id="node5" href="$structoanda_1_1v20_1_1transaction_1_1ClientExtensions.html" title=" " alt="" coords="415,258,589,299"/>
+<area shape="rect" id="node6" href="$structoanda_1_1v20_1_1transaction_1_1TakeProfitDetails.html" title=" " alt="" coords="767,293,942,334"/>
+<area shape="rect" id="node7" href="$structoanda_1_1v20_1_1transaction_1_1StopLossDetails.html" title=" " alt="" coords="767,358,942,399"/>
+<area shape="rect" id="node8" href="$structoanda_1_1v20_1_1transaction_1_1TrailingStopLossDetails.html" title=" " alt="" coords="764,423,945,465"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,304,92,331"/>
+</map>
