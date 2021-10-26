@@ -1,7 +1,0 @@
-<map id="oanda::v20::endpoint::position::position::Response" name="oanda::v20::endpoint::position::position::Response">
-<area shape="rect" id="node1" title=" " alt="" coords="5,631,164,687"/>
-<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="121,81,280,123"/>
-<area shape="rect" id="node4" href="$structoanda_1_1v20_1_1position_1_1Position.html" title=" " alt="" coords="123,527,278,568"/>
-<area shape="rect" id="node5" href="$structoanda_1_1v20_1_1position_1_1PositionSide.html" title=" " alt="" coords="362,355,517,397"/>
-<area shape="rect" id="node3" title=" " alt="" coords="157,5,244,32"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="oanda::v20::order::GuaranteedStopLossOrderEntryData" name="oanda::v20::order::GuaranteedStopLossOrderEntryData">
-<area shape="rect" id="node1" title="Details required by clients creating a Guaranteed Stop Loss Order." alt="" coords="815,33,1072,74"/>
-<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="141,34,300,75"/>
-<area shape="rect" id="node4" href="$structoanda_1_1v20_1_1primitives_1_1GuaranteedStopLossOrderLevelRestriction.html" title=" " alt="" coords="425,64,660,120"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,41,92,68"/>
-</map>

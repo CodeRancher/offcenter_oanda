@@ -1,5 +1,0 @@
-<map id="oanda::v20::order::DynamicOrderState" name="oanda::v20::order::DynamicOrderState">
-<area shape="rect" id="node1" title="The dynamic state of an Order. This is only relevant to TrailingStopLoss Orders, as no other Order ty..." alt="" coords="9,215,160,256"/>
-<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1common_1_1String.html" title=" " alt="" coords="5,81,164,123"/>
-<area shape="rect" id="node3" title=" " alt="" coords="41,5,128,32"/>
-</map>

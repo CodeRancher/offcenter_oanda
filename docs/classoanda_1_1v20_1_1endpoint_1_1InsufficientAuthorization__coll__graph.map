@@ -1,8 +1,0 @@
-<map id="oanda::v20::endpoint::InsufficientAuthorization" name="oanda::v20::endpoint::InsufficientAuthorization">
-<area shape="rect" id="node1" title=" " alt="" coords="947,53,1136,94"/>
-<area shape="rect" id="node2" href="$classoanda_1_1v20_1_1endpoint_1_1OandaExceptionBase.html" title=" " alt="" coords="688,5,899,61"/>
-<area shape="rect" id="node3" href="$classoanda_1_1v20_1_1endpoint_1_1OandaConnectionException.html" title=" " alt="" coords="431,13,640,54"/>
-<area shape="rect" id="node4" href="$classoanda_1_1v20_1_1common_1_1OandaRuntimeException.html" title="Oanda runtime exception." alt="" coords="192,13,383,54"/>
-<area shape="rect" id="node5" title=" " alt="" coords="5,20,144,47"/>
-<area shape="rect" id="node6" href="$structoanda_1_1v20_1_1endpoint_1_1OandaExceptionJsonTest.html" title=" " alt="" coords="688,85,899,141"/>
-</map>
