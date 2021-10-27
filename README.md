@@ -43,7 +43,7 @@ Important make commands.
 | ------- | ------ |
 | make | Build library. Build documentation if ${BUILD_DOC}=ON |
 | make install | Build library and install to ${CMAKE_INSTALL_PREFIX}. Build documentation if ${BUILD_DOC}=ON |
-| make doc_doxyten | Build library. Build documentation if ${BUILD_DOC}=ON |
+| make doc_doxygen | Build library. Build documentation if ${BUILD_DOC}=ON |
 
 
 Important cmake build variables.
