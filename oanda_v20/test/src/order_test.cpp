@@ -27,7 +27,7 @@
 
 #include <gtest/gtest.h>
 
-#include "../../include/oanda/v20/endpoint/OandaConnectionException.hpp"
+#include "oanda/v20/endpoint/OandaConnectionException.hpp"
 #include "OandaEndpointsFixture.hpp"
 
 #include "oanda/v20/endpoint/Order.hpp"

@@ -260,4 +260,4 @@ One problem with testing much of the system is that the repeated calls to Oanda 
 2. Add examples.
 
 ## License
-[MIT](https://github.com/CodeRancher/offcenter_oanda/blob/main/LICENSE)
+[Apache License, Version 2.0](https://github.com/CodeRancher/offcenter_oanda/blob/main/LICENSE)

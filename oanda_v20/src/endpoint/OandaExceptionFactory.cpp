@@ -23,8 +23,7 @@
 #include <nlohmann/json.hpp>
 
 #include "oanda/v20/endpoint/OandaExceptionFactory.hpp"
-
-#include "../../include/oanda/v20/endpoint/OandaConnectionException.hpp"
+#include "oanda/v20/endpoint/OandaConnectionException.hpp"
 
 namespace oanda {
 namespace v20 {
