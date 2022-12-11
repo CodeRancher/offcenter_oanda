@@ -16,7 +16,7 @@ cmake_policy(SET CMP0074 NEW)
 include(ExternalProject)
 
 find_package(Boost
-	1.74
+	1.76
 	COMPONENTS atomic thread system regex filesystem random chrono serialization 
 )
 # websocketpp  date-time

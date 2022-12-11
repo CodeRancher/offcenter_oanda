@@ -1,28 +1,36 @@
+#
+# Copyright 2022 Scott Brauer
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an  BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+#
+#
+# @file   CMakeLists.txt
+# @author Scott Brauer
+# @date   10-01-2022
+#
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_EXTENSIONS OFF)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-set(THREADS_PREFER_PTHREAD_FLAG ON)
-find_package(Threads REQUIRED)
-find_package(nlohmann_json REQUIRED)
-find_package(cpprestsdk REQUIRED)
-find_package(EASYLOGGINGPP REQUIRED)
-add_compile_definitions(ELPP_THREAD_SAFE)
-add_compile_definitions(ELPP_FRESH_LOG_FILE)
-add_compile_definitions(ELPP_NO_DEFAULT_LOG_FILE)
-
-set(OPENSSL_USE_STATIC_LIBS TRUE)
-find_package(OpenSSL REQUIRED)
+offcenter_cxx()
+offcenter_elpp()
 
 ###############################################################################
 # eur_usd_to_csv
-add_executable(eur_usd_to_csv
-	${CMAKE_CURRENT_LIST_DIR}/eur_usd_to_csv.cpp
-	${EASYLOGGINGPP_INCLUDE_DIR}/easylogging++.cc
+offcenter_example_constants(eur_usd_to_csv)
+add_executable(${EXE_NAME}
+	${CMAKE_CURRENT_LIST_DIR}/src/eur_usd_to_csv.cpp
 )
 
-target_link_libraries(eur_usd_to_csv
+target_link_libraries(${EXE_NAME}
 	oanda_v20
 	cpprestsdk::cpprest
 	${EASYLOGGINGPP_LIBRARY}
@@ -31,19 +39,21 @@ target_link_libraries(eur_usd_to_csv
 	OpenSSL::Crypto
 )
 
-target_include_directories(eur_usd_to_csv
-	PUBLIC
+target_include_directories(${EXE_NAME}
+	SYSTEM PUBLIC
 		${EASYLOGGINGPP_INCLUDE_DIR}
 )
+
+offcenter_example()
 
 ###############################################################################
 # list_accounts
-add_executable(list_accounts
-	${CMAKE_CURRENT_LIST_DIR}/list_accounts.cpp
-	${EASYLOGGINGPP_INCLUDE_DIR}/easylogging++.cc
+offcenter_example_constants(list_accounts)
+add_executable(${EXE_NAME}
+	${CMAKE_CURRENT_LIST_DIR}/src/list_accounts.cpp
 )
 
-target_link_libraries(list_accounts
+target_link_libraries(${EXE_NAME}
 	oanda_v20
 	cpprestsdk::cpprest
 	${EASYLOGGINGPP_LIBRARY}
@@ -52,19 +62,21 @@ target_link_libraries(list_accounts
 	OpenSSL::Crypto
 )
 
-target_include_directories(list_accounts
-	PUBLIC
+target_include_directories(${EXE_NAME}
+	SYSTEM PUBLIC
 		${EASYLOGGINGPP_INCLUDE_DIR}
 )
+
+offcenter_example()
 
 ###############################################################################
 # list_candles
-add_executable(list_candles
-	${CMAKE_CURRENT_LIST_DIR}/list_candles.cpp
-	${EASYLOGGINGPP_INCLUDE_DIR}/easylogging++.cc
+offcenter_example_constants(list_candles)
+add_executable(${EXE_NAME}
+	${CMAKE_CURRENT_LIST_DIR}/src/list_candles.cpp
 )
 
-target_link_libraries(list_candles
+target_link_libraries(${EXE_NAME}
 	oanda_v20
 	cpprestsdk::cpprest
 	${EASYLOGGINGPP_LIBRARY}
@@ -73,7 +85,9 @@ target_link_libraries(list_candles
 	OpenSSL::Crypto
 )
 
-target_include_directories(list_candles
-	PUBLIC
+target_include_directories(${EXE_NAME}
+	SYSTEM PUBLIC
 		${EASYLOGGINGPP_INCLUDE_DIR}
 )
+
+offcenter_example()

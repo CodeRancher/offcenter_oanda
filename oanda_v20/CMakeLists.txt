@@ -1,9 +1,38 @@
+#
+# Copyright 2022 Scott Brauer
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an  BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+#
+#
+# @file   CMakeLists.txt
+# @author Scott Brauer
+# @date   05-27-2019
+#
 
-add_library(oanda_v20 STATIC)
+include(OffcenterBuild)
+
+offcenter_cxx()
+offcenter_elpp()
+offcenter_lib_setup(oanda_v20 oanda_v20)
+
+set(version 0.0.1)
+
+add_library(${LIB_NAME} STATIC)
 
 add_compile_definitions(HAS_UNCAUGHT_EXCEPTIONS=1)
 
-target_sources(oanda_v20
+target_sources(${LIB_NAME}
 	PRIVATE
 		${CMAKE_CURRENT_LIST_DIR}/src/account/Account.cpp
 		${CMAKE_CURRENT_LIST_DIR}/src/account/AccountChanges.cpp
@@ -638,71 +667,19 @@ target_sources(oanda_v20
 		$<INSTALL_INTERFACE:include/oanda/v20/transaction/TransferFundsTransaction.hpp>
 )
 
-find_package(nlohmann_json 3.9.1 REQUIRED)
-find_package(EASYLOGGINGPP REQUIRED)
+target_include_directories(${LIB_NAME} 
+	SYSTEM PRIVATE
+		${EASYLOGGINGPP_INCLUDE_DIR}
+)
 
-message(STATUS "oanda_v20:EASYLOGGINGPP_INCLUDE_DIR ${EASYLOGGINGPP_INCLUDE_DIR}")
-
-target_include_directories(oanda_v20
+target_include_directories(${LIB_NAME}
 	PUBLIC
 		"$<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>"
-		"$<BUILD_INTERFACE:${EASYLOGGINGPP_INCLUDE_DIR}>"
 		"$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>"
 )
 
-install(TARGETS oanda_v20
-        EXPORT  OandaTargets
-        LIBRARY DESTINATION lib
-        ARCHIVE DESTINATION lib
-        RUNTIME DESTINATION bin
-        INCLUDES DESTINATION include
-)
-
-install (
-	DIRECTORY ${CMAKE_CURRENT_LIST_DIR}/include/
-	DESTINATION include
-	FILES_MATCHING PATTERN "*.h*"
-)
-
-install(EXPORT OandaTargets
-        FILE OandaTargets.cmake
-        NAMESPACE Oanda::
-        DESTINATION lib/cmake/oanda
-)
-
-include(CMakePackageConfigHelpers)
-set(version 0.0.1)
-
-set_property(TARGET oanda_v20 PROPERTY VERSION ${version})
-set_property(TARGET oanda_v20 PROPERTY SOVERSION 0)
-set_property(TARGET oanda_v20 PROPERTY INTERFACE_Oanda_MAJOR_VERSION 0)
-set_property(TARGET oanda_v20 APPEND PROPERTY COMPATIBLE_INTERFACE_STRING Oanda_MAJOR_VERSION)
-
-# generate the version file for the config file
-write_basic_package_version_file(
-	"${CMAKE_CURRENT_BINARY_DIR}/OandaConfigVersion.cmake"
-	VERSION "${version}"
-	COMPATIBILITY AnyNewerVersion
-)
-
-# create config file
-configure_package_config_file(${CMAKE_CURRENT_SOURCE_DIR}/oanda-config.cmake.in
-	"${CMAKE_CURRENT_BINARY_DIR}/OandaConfig.cmake"
-	INSTALL_DESTINATION lib/cmake/oanda
-)
-
-# install config files
-install(FILES
-	"${CMAKE_CURRENT_BINARY_DIR}/OandaConfig.cmake"
-	"${CMAKE_CURRENT_BINARY_DIR}/OandaConfigVersion.cmake"
-	DESTINATION lib/cmake/oanda
-)
-
-# generate the export targets for the build tree
-export(EXPORT OandaTargets
-	FILE "${CMAKE_CURRENT_BINARY_DIR}/cmake/OandaTargets.cmake"
-	NAMESPACE Oanda::
-)
+include(OffcenterInstall)
+offcenter_lib_install()
 
 if(ENABLE_UNIT_TESTS)
     add_subdirectory(test)
